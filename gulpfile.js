@@ -6,7 +6,6 @@ var babelify = require('babelify');
 var source = require('vinyl-source-stream');
 var del = require('del');
 var Karma = require('karma');
-var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
 
 gulp.task('lint', function() {
