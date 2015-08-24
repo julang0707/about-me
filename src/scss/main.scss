@@ -47,9 +47,16 @@ main {
   @include shift(2);
   .collapse-card {
     position: relative;
+    overflow: hidden;
   }
   .collapse-card__body {
     padding-top: 0;
+  }
+
+  .collapse-card__title {
+    i {
+      margin-right: 10px;
+    }
   }
 
   .example {
